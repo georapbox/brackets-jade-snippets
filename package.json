@@ -1,0 +1,23 @@
+{
+    "name": "jade-snippets",
+    "title": "Jade Snippets",
+    "description": "A collection of Jade snippets for Brackets.",
+    "homepage": "https://github.com/georapbox/brackets-jade-snippets",
+    "version": "0.0.1",
+    "author": "George Raptis <georapbox@gmail.com> (http://georap.gr)",
+    "license": "MIT",
+    "categories": "editing",
+    "keywords": [
+        "brackets",
+        "jade",
+        "snippets"
+    ],
+    "files": [
+        "main.js",
+        "snippet.js",
+        "README.md"
+    ],
+    "engines": {
+        "brackets": ">=0.31.0"
+    }
+}
