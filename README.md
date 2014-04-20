@@ -1,4 +1,4 @@
-# [Jade Snippets for Brackets](http://)
+# [Jade Snippets for Brackets](https://github.com/georapbox/brackets-jade-snippets)
 
 A collection of [Jade](http://jade-lang.com/) snippets for [Brackets](http://brackets.io/) editor.
 
