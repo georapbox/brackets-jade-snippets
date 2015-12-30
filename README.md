@@ -32,9 +32,9 @@ a => ```a(href="")```
 
 at => ```a(href="", target="_blank")```
 
-img => ```img(src="", width="", height="", alt="")```,
+img => ```img(src="", width="", height="", alt="")```
 
-script => ```script(type="text/javascript", src="")```,
+script => ```script(type="text/javascript", src="")```
 
 link => ```link(rel="stylesheet", type="text/css", href="")```
 
@@ -53,6 +53,12 @@ inpdt => ```input(type="datetime", placeholder="")```
 
 inpdtl => ```input(type="datetime-local", placeholder="")```
 
+inpf => ```input(type="file", accept="")```
+
+inpfm => ```input(type="file", accept="", multiple="multiple")```
+
+inph => ```input(type="hidden", value="")```
+
 inpti => ```input(type="time", placeholder="")```
 
 inpdm => ```input(type="month", placeholder="")```
@@ -61,7 +67,11 @@ inpw => ```input(type="week", placeholder="")```
 
 inpc => ```input(type="color", value="")```
 
+inpch => ```input(type="checkbox", value="", checked="checked")```
+
 inpn => ```input(type="number", value="", min="", max="", step="")```  
+
+inpp => ```input(type="password", placeholder="")```
 
 inpr => ```input(type="range", value="", min="", max="", step="")```
 
@@ -72,6 +82,8 @@ inps => ```input(type="search", placeholder="")```
 textarea => ```textarea(placeholder="")```
 
 button => ```button(type="button") button``` 
+
+reset => ```input(type="reset")```
 
 submit => ```input(type="submit", value="submit")```
 
