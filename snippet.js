@@ -3,7 +3,7 @@
 
 define(function (require, exports, module) {
     'use strict';
-    
+
     var snippets = {
         itemt: 'itemtype="http://schema.org/*"',                             // itemtype
         data: 'data-*=""',                                                   // data attribute
@@ -18,21 +18,28 @@ define(function (require, exports, module) {
         inpe: 'input(type="email", placeholder="")',                         // input element (type="email")
         inptel: 'input(type="tel", placeholder="")',                         // input element (type="tel")
         inpd: 'input(type="date", placeholder="")',                          // input element (type="date")
-        inpdt: 'input(type="datetime", placeholder="")',                     // input element (type="datetime")    
+        inpdt: 'input(type="datetime", placeholder="")',                     // input element (type="datetime")
         inpdtl: 'input(type="datetime-local", placeholder="")',              // input element (type="datetime-local")
+        inpf: 'input(type="file", accept="")',                               // input element (type="file")
+        inpfm: 'input(type="file", accept="", multiple="multiple")',         // input element (type="file" multiple="multiple")
+        inph: 'input(type="hidden", value="")',                              // input element (type="hidden")
         inpti: 'input(type="time", placeholder="")',                         // input element (type="time")
         inpdm: 'input(type="month", placeholder="")',                        // input element (type="month")
         inpw: 'input(type="week", placeholder="")',                          // input element (type="week")
         inpc: 'input(type="color", value="")',                               // input element (type="color")
-        inpn: 'input(type="number", value="", min="", max="", step="")',     // input element (type="number")  
+        inpch: 'input(type="checkbox", value="", checked="checked")',        // input element (type="checkbox")
+        inpn: 'input(type="number", value="", min="", max="", step="")',     // input element (type="number")
+        inpp: 'input(type="password", placeholder="")',                      // input element (type="password")
         inpr: 'input(type="range", value="", min="", max="", step="")',      // input element (type="range")
         inpurl: 'input(type="url", placeholder="")',                         // input element (type="url")
         inps: 'input(type="search", placeholder="")',                        // input element (type="search")
         textarea: 'textarea(placeholder="")',                                // textarea element
-        button: 'button(type="button") button',                              // button element 
+        button: 'button(type="button") button',                              // button element
+        reset: 'input(type="reset")',                                        // input element (type="reset")
         submit: 'input(type="submit", value="submit")'                       // input element (type="submit")
+
     };
-    
+
     // template
     snippets.temp = 'doctype html'
         + '\nhtml'
@@ -44,25 +51,6 @@ define(function (require, exports, module) {
         + '\n    link(rel="stylesheet", href="")'
         + '\n  body'
         + '\n    script(src="")';
-    
+
     module.exports = snippets;
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-    
-    
